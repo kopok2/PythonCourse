@@ -23,7 +23,8 @@ Walrus operator
 
 ```python
 if (n := len(a)) > 10:
-    print(f"List is too long ({n} elements, expected <= 10)")
+    print(f"List is too long ({n} elements, 
+	  expected <= 10)")
 ```
 
 
@@ -55,7 +56,8 @@ Walrus operator
 
 ```python
 [clean_name.title() for name in names
- if (clean_name := normalize('NFC', name)) in allowed_names]
+ if (clean_name := normalize('NFC', name))
+     in allowed_names]
 ```
 
 

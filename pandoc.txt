@@ -1,0 +1,1 @@
+pandoc file.md -t beamer -o out.pdf
