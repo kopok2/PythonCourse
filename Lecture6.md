@@ -269,7 +269,8 @@ list(map(ord, 'abcdef'))
 # Warunki
 
 ```python
-list(map((lambda x: x ** 2), filter((lambda x: x % 2 == 0), range(5))))
+list(map((lambda x: x ** 2),
+ filter((lambda x: x % 2 == 0), range(5))))
 
 [x ** 2 for x in range(5) if not x % 2]
 ```
