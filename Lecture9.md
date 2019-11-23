@@ -53,7 +53,8 @@ class Person:
 ```python
 if __name__ == '__main__':
 	bob = Person('Robert Zielony')
-	anna = Person('Anna Czerwona', job='Programista', pay=10**12)
+	anna = Person('Anna Czerwona', 
+		      job='Programista', pay=10**12)
 	print(bob.name, bob.pay)
 	print(anna.name, anna.pay)
 ```
@@ -221,7 +222,8 @@ class AttrDisplay:
 			attrs.append(f'{key}: {getattr(self, key)}')
 		return '\n'.join(attrs)
 	def __str__(self):
-		return '{0}\n{1}'.format(self.__class__.__name__, self.gather_attrs())
+		return '{0}\n{1}'.format(self.__class__.__name__,
+			self.gather_attrs())
 ```
 
 

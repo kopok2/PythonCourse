@@ -288,7 +288,8 @@ class Employee:
 	def work(self):
 		print(f'{self.name} pracuje.')
 	def __repr__(self):
-		return f'Pracownik: {self.name}, wynagrodzenie: {self.salary}'
+		return f'Pracownik: {self.name},
+			 wynagrodzenie: {self.salary}'
 ```
 
 
