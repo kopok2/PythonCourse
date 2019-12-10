@@ -12,10 +12,10 @@ class Lecture:
 
     if datetime.datetime.now().hour > 16:
         def __str__(self):
-            return f"{self.no} has finished."
+            return f"Lecture {self.no} has finished."
     else:
         def __str__(self):
-            return f"{self.no} has started."
+            return f"Lecture {self.no} has started."
 
 
 if __name__ == '__main__':
