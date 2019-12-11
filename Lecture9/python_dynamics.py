@@ -10,7 +10,7 @@ class Lecture:
     def __init__(self, no):
         self.no = no
 
-    if datetime.datetime.now().hour > 16:
+    if datetime.datetime.now().hour > 14:
         def __str__(self):
             return f"Lecture {self.no} has finished."
     else:

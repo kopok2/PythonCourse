@@ -41,3 +41,10 @@ if __name__ == '__main__':
     from person import Manager
     tom = Manager('Tomasz Czarny', 1000)
     instance_tree(tom)
+    
+    from collections import defaultdict
+    instance_tree(defaultdict())
+    
+    
+    
+    
